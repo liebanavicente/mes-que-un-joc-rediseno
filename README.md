@@ -77,12 +77,48 @@ cd mes-que-un-joc-rediseno
 # Instalar dependencias
 npm install
 
+# Descargar imágenes
+bash scripts/download-images.sh
+
 # Servidor de desarrollo
 npm run dev
 
 # Build para producción
 npm run build
 ```
+
+---
+
+## Imágenes
+
+Las 10 imágenes de la carpeta `public/images/` fueron generadas por IA específicamente para este proyecto.
+
+### Descargar imágenes
+
+Después de clonar, ejecuta:
+
+```bash
+# Script automático
+bash scripts/download-images.sh
+
+# O setup completo (dependencias + imágenes + build)
+bash scripts/setup.sh
+```
+
+Las imágenes también están disponibles en: https://5v3f3y2arcaoi.kimi.page/images/
+
+| Archivo | Descripción |
+|---------|-------------|
+| `hero.jpg` | Sala decorada para cumpleaños (hero) |
+| `gallery-1.jpg` | Parque de bolas de dos plantas |
+| `gallery-2.jpg` | Decoración con globos rosas y dorados |
+| `gallery-3.jpg` | Sala arcade con fútbolín |
+| `gallery-4.jpg` | Tarta de unicornio con cupcakes |
+| `gallery-5.jpg` | Photocall y candy bar |
+| `gallery-6.jpg` | Zona de descanso para padres |
+| `gallery-7.jpg` | Decoración temática superhéroes |
+| `gallery-8.jpg` | Detalles de fiesta infantil |
+| `gallery-9.jpg` | Simulador de conducción para niños |
 
 ---
 
@@ -106,17 +142,6 @@ npm run build
 - **Hero timeline:** Secuencia animada de título, subtítulo, CTAs e imagen
 - **Hover effects:** Elevación en tarjetas, escala en imágenes de galería
 - **Reduced motion:** Se respeta `prefers-reduced-motion`
-
----
-
-## Imágenes
-
-Las 10 imágenes de la carpeta `public/images/` fueron generadas por IA específicamente para este proyecto. Incluyen:
-- Hero de la sala decorada
-- Parque de bolas, sala arcade, simulador de conducción
-- Decoraciones (princesas, superhéroes)
-- Tartas personalizadas, photocall, candy bar
-- Zona de descanso para padres
 
 ---
 
